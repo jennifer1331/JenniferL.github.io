@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 30px;
+    box-sizing: border-box;
+    background: red;
+}
+.contenedor{
+    margin: auto;
+    display: table;
+}
+h1 {
+    float: left;
+    color: red;
+    position: relative;
+}
+h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: beige;
+    border-left: 1px solid #000;
+
+    animation: maquina 5s infinite alternate steps(46);
+}
+@keyframes maquina {
+   from {
+    width: 100%;
+   }
+   to {
+    width: 0;
+   }
+}
+.img1{
+    width:70%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.img2{
+    width: 70%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#carouselExample{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#contenedorpadre{
+    background: rgb(230, 216, 190);
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#yes{
+    margin: 40px;
+    padding: 30px;
+}
